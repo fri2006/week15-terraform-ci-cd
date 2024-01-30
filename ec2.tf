@@ -1,6 +1,6 @@
 resource "aws_instance" "server1" {
     instance_type = var.instance_type
- ami = data.aws_ami.ami1.id
+ ami = "ami-00b8917ae86a424c9"
  tags ={
     Name = "terraform-server1"
  }
